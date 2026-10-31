@@ -32,7 +32,7 @@ Please run the following instructions in the terminal of your VSCode. You need P
 **1. Get the code**
 
 ```
-git clone https://github.com/YOUR-USERNAME/lasso-agent.git
+git clone https://github.com/marut15/lasso-agent.git
 cd lasso-agent
 ```
 
