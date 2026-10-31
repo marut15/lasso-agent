@@ -60,6 +60,12 @@ export ANTHROPIC_API_KEY="sk-ant-..."
 
 Save, close, and open a new terminal. If you use Claude Code, add the same line to `~/.zshenv` too: Claude Code's shell doesn't read `~/.zshrc`. Then quit and reopen VS Code.
 
+On Windows, open PowerShell and run (with your own key):
+
+    setx ANTHROPIC_API_KEY "sk-ant-..."
+
+Then close and reopen the terminal. On Windows, use `python` instead of `python3` in the commands above.
+
 Never put the key in a file inside this project.
 
 ## Run the agent
